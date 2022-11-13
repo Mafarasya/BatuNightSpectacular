@@ -88,7 +88,7 @@ body {
 /* Jumbotron */
 
 .landing-jumbutron .jumbotron {
-  background-image: url(img/test-jumboooo.png);
+  background-image: url(img/test-jumboooo.avif);
   background-size: cover;
   height: 660px;
   /* min-height: 100vh; */
@@ -119,13 +119,13 @@ body {
   font-weight: 400;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   font-size: 45px;
-  margin-bottom: 25px;
-  line-height: 1.6;
-  margin-top: 70px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  /* margin-top: 70px; */
 }
 
 .landing-jumbutron .jumbotron .lead {
-  color: #ffffff;
+  color: #dbd9d9;
   margin-bottom: 20px;
 }
 
@@ -269,7 +269,6 @@ body {
   font-size: 45px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 30px;
   line-height: 1.5;
 }
 
@@ -443,7 +442,7 @@ body {
 /* ABOUT US PAGE */
 
 .about-jumbo .jumbotron {
-  background-image: url(img/about-us-fix.png);
+  background-image: url(img/about-us-fix.avif);
   background-size: cover;
   height: 640px;
   /* position: relative; */
@@ -583,7 +582,7 @@ body {
 }
 
 .rides-jumbotron .jumbotron {
-  background-image: url(img/Rides\ map.png);
+  background-image: url(img/Rides\ map.avif);
   background-size: cover;
   height: 100vh;
 }
@@ -708,7 +707,7 @@ body {
 }
 
 .contact-jumbo .jumbotron {
-  background-image: url(img/contact-us-jumbotron.png);
+  background-image: url(img/contact-us-jumbotron.avif);
   background-size: cover;
   height: 640px;
   /* position: relative; */
@@ -1078,13 +1077,27 @@ hr.fancy-line {
 }
 
 @media (min-width: 550px) {
+  .display-4 {
+    margin-top: 70px;
+  }
+
   #topBtn {
     right: 30px;
   }
 }
 
 @media (min-width: 576px) {
+  .display-4 {
+    margin-top: 70px;
+  }
+
   .footer {
     text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-4 {
+    margin-top: 70px;
   }
 }
